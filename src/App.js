@@ -1,8 +1,15 @@
 import './App.css';
+import NavBar from './components/NavBar/NavBar';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 
 function App() {
   return (
-    <h1>Oh la la bombones!</h1>
+    <div className="container" >
+      <NavBar />
+      <section className='main-container'>
+        <ItemListContainer title="Nuestros productos"/>
+      </section>
+    </div>
   );
 }
 
