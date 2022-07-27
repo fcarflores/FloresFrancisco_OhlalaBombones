@@ -1,34 +1,44 @@
 header.header {
-    width: 100%;
+  width: 100%;
+  display: flex;
+  padding: 10px 25px;
+  box-shadow: 1px 5px 15px #f304b749;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+ul.navbar {
+    list-style: none;
     display: flex;
-    padding: 10px 25px;
-    box-shadow: 1px 5px 15px #f304b749;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box;
-  }
-  ul.navbar {
-      list-style: none;
-      display: flex;
-  }
-  ul.navbar li {
-      margin-right: 15px;
-  }
-  .titulo {
-    color: #f304b79f;
-    text-align: center;
-  }
-  .logo {
-    width: 110px;
-  }
-  .logo img {
-    width: 100%;
-  }
-  .carrito {
-    width: 50px;
-  }
-  .carrito img {
-    width: 100%;
-  }
- 
-  
+}
+ul.navbar li {
+    margin-right: 15px;
+}
+.titulo {
+  color: #f304b79f;
+  text-align: center;
+}
+.logo {
+  width: 110px;
+}
+.logo img {
+  width: 100%;
+}
+.carrito {
+  width: 50px;
+}
+.carrito img {
+  width: 100%;
+}
+.card {
+  float:left;
+  border: 1px solid #ababab;
+  width: 400px;
+  margin-top: 20px;
+  margin-left: 20px;
+  box-shadow: 1px 1px 5px #0000002b;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  background: #f304b749 ;
+}
